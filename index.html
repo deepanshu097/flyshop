@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block title %} <h1>Hello, welcome to shopping Galaxy</h1> {% endblock title %}
+
+{% block login_btn %}
+<div>
+    <p>click here to login</p>
+   <button type="button" name="loginbtn"><a href="login/">login</a></button>
+</div>
+{% endblock login_btn %}
+
+{% block cards %}
+    <div class="card" style="width: 18rem;">
+    <img src="http://clipart-library.com/images_k/bag-transparent-background/bag-transparent-background-24.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">add to cart</a>
+    </div>
+    </div>
+{% endblock cards %}
